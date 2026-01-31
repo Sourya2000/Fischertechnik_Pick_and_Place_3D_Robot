@@ -32,13 +32,14 @@ Install all required Python packages using:
 
 ```bash
 
-- pip install -r requirements.txt
+pip install -r requirements.txt
 
 
 ### Step 2: Run the application
 
 ```bash
 - python run_all.py
+
 
 
 
