@@ -3,6 +3,10 @@
 This project contains the code and configuration required to run the
 **Fischertechnik Pick and Place 3D Robot** application.
 
+
+
+![Alt text](IMG_8998.jpeg)
+
 ---
 
 ## Prerequisites
@@ -26,5 +30,9 @@ pip install -r requirements.txt
 
 ```bash
 python run_all.py
+
+
+
+
 
 
