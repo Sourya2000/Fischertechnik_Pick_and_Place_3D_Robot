@@ -1,4 +1,4 @@
- #Fischertechnik Pick-and-Place 3D Robot
+ Fischertechnik Pick-and-Place 3D Robot
 
 This project contains the code and configuration needed to run the **Fischertechnik Pick-and-Place 3D Robot** application. It combines object detection with motor control to identify, pick up, and place objects.
 
