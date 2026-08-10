@@ -1,49 +1,45 @@
-# Fischertechnik Pick and Place 3D Robot
+ #Fischertechnik Pick-and-Place 3D Robot
 
-This project contains the code and configuration required to run the
-**Fischertechnik Pick and Place 3D Robot** application.
+This project contains the code and configuration needed to run the **Fischertechnik Pick-and-Place 3D Robot** application. It combines object detection with motor control to identify, pick up, and place objects.
 
-
-
-![Alt text](IMG_8998.jpeg)
-
----
+![Fischertechnik Pick-and-Place 3D Robot](IMG_8998.jpeg)
 
 ## Prerequisites
 
-- Python 3.x installed
-- `pip` available in your system path
+Before you begin, make sure the following are installed and available from your command line:
 
----
+- Python 3.x
+- `pip`
 
+## Project Files
 
-## Files information:
+| File | Description |
+| --- | --- |
+| `Pick_worker.py` | Configures motor movements based on object-detection results. |
+| `app.py` | Streamlit frontend. |
+| `main.py` | FastAPI backend. |
+| `run_all.py` | Starts the frontend and backend together. |
+| `requirements.txt` | Lists the required Python packages. |
 
-- Pick_worker.py- Motors movement configuration based on the object detection
-- app.py - Frontend-Streamlit
-- main.py - Backend-FastAPI
-- run_all.py - Running the frontend and backend at once
-- requirements.txt- Importing libraries and  packages
-  
-## Steps to Run the Application
+## Installation
 
-### Step 1: Install dependencies
-Install all required Python packages using:
+1. Clone or download this repository.
+2. Open a terminal in the project directory.
+3. Install the dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Run the Application
+
+Start the frontend and backend together:
 
 ```bash
+python run_all.py
+```
 
-pip install -r requirements.txt
+## Notes
 
-
-### Step 2: Run the application
-
-```bash
-- python run_all.py
-
-
-
-
-
-
-
-
+- Ensure the robot hardware is connected and ready before starting the application.
+- If your Python installation uses `python3` instead of `python`, run `python3 run_all.py`.
